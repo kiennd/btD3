@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD24AE7516F5BBBD00C28C91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD24AE7416F5BBBD00C28C91 /* UIKit.framework */; };
+		CD24AE7716F5BBBD00C28C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD24AE7616F5BBBD00C28C91 /* Foundation.framework */; };
+		CD24AE7916F5BBBD00C28C91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD24AE7816F5BBBD00C28C91 /* CoreGraphics.framework */; };
+		CD24AE7F16F5BBBD00C28C91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD24AE7D16F5BBBD00C28C91 /* InfoPlist.strings */; };
+		CD24AE8116F5BBBD00C28C91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AE8016F5BBBD00C28C91 /* main.m */; };
+		CD24AE8516F5BBBD00C28C91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AE8416F5BBBD00C28C91 /* AppDelegate.m */; };
+		CD24AE8716F5BBBD00C28C91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD24AE8616F5BBBD00C28C91 /* Default.png */; };
+		CD24AE8916F5BBBD00C28C91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD24AE8816F5BBBD00C28C91 /* Default@2x.png */; };
+		CD24AE8B16F5BBBD00C28C91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD24AE8A16F5BBBD00C28C91 /* Default-568h@2x.png */; };
+		CD24AE8E16F5BBBD00C28C91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AE8D16F5BBBD00C28C91 /* ViewController.m */; };
+		CD24AEB616F5BC0A00C28C91 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AE9C16F5BC0A00C28C91 /* Circle.m */; };
+		CD24AEB716F5BC0A00C28C91 /* Ellipse.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AE9E16F5BC0A00C28C91 /* Ellipse.m */; };
+		CD24AEBA16F5BC0A00C28C91 /* Hinh.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEA516F5BC0A00C28C91 /* Hinh.m */; };
+		CD24AEBC16F5BC0A00C28C91 /* Parallelogram.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEA916F5BC0A00C28C91 /* Parallelogram.m */; };
+		CD24AEBD16F5BC0A00C28C91 /* Rectangular.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEAB16F5BC0A00C28C91 /* Rectangular.m */; };
+		CD24AEBE16F5BC0A00C28C91 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEAD16F5BC0A00C28C91 /* Square.m */; };
+		CD24AEBF16F5BC0A00C28C91 /* Trapezodial.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEAF16F5BC0A00C28C91 /* Trapezodial.m */; };
+		CD24AEC016F5BC0A00C28C91 /* Trapezoidal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEB116F5BC0A00C28C91 /* Trapezoidal.m */; };
+		CD24AEC116F5BC0A00C28C91 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEB316F5BC0A00C28C91 /* Triangle.m */; };
+		CD24AEC216F5BC0A00C28C91 /* TuGiac.m in Sources */ = {isa = PBXBuildFile; fileRef = CD24AEB516F5BC0A00C28C91 /* TuGiac.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD24AE7016F5BBBD00C28C91 /* bt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD24AE7416F5BBBD00C28C91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD24AE7616F5BBBD00C28C91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD24AE7816F5BBBD00C28C91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD24AE7C16F5BBBD00C28C91 /* bt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bt-Info.plist"; sourceTree = "<group>"; };
+		CD24AE7E16F5BBBD00C28C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD24AE8016F5BBBD00C28C91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD24AE8216F5BBBD00C28C91 /* bt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bt-Prefix.pch"; sourceTree = "<group>"; };
+		CD24AE8316F5BBBD00C28C91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD24AE8416F5BBBD00C28C91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD24AE8616F5BBBD00C28C91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD24AE8816F5BBBD00C28C91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD24AE8A16F5BBBD00C28C91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD24AE8C16F5BBBD00C28C91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD24AE8D16F5BBBD00C28C91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD24AE9B16F5BC0A00C28C91 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		CD24AE9C16F5BC0A00C28C91 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		CD24AE9D16F5BC0A00C28C91 /* Ellipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ellipse.h; sourceTree = "<group>"; };
+		CD24AE9E16F5BC0A00C28C91 /* Ellipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ellipse.m; sourceTree = "<group>"; };
+		CD24AEA416F5BC0A00C28C91 /* Hinh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hinh.h; sourceTree = "<group>"; };
+		CD24AEA516F5BC0A00C28C91 /* Hinh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hinh.m; sourceTree = "<group>"; };
+		CD24AEA816F5BC0A00C28C91 /* Parallelogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parallelogram.h; sourceTree = "<group>"; };
+		CD24AEA916F5BC0A00C28C91 /* Parallelogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parallelogram.m; sourceTree = "<group>"; };
+		CD24AEAA16F5BC0A00C28C91 /* Rectangular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangular.h; sourceTree = "<group>"; };
+		CD24AEAB16F5BC0A00C28C91 /* Rectangular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangular.m; sourceTree = "<group>"; };
+		CD24AEAC16F5BC0A00C28C91 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		CD24AEAD16F5BC0A00C28C91 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+		CD24AEAE16F5BC0A00C28C91 /* Trapezodial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapezodial.h; sourceTree = "<group>"; };
+		CD24AEAF16F5BC0A00C28C91 /* Trapezodial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trapezodial.m; sourceTree = "<group>"; };
+		CD24AEB016F5BC0A00C28C91 /* Trapezoidal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapezoidal.h; sourceTree = "<group>"; };
+		CD24AEB116F5BC0A00C28C91 /* Trapezoidal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trapezoidal.m; sourceTree = "<group>"; };
+		CD24AEB216F5BC0A00C28C91 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		CD24AEB316F5BC0A00C28C91 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		CD24AEB416F5BC0A00C28C91 /* TuGiac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuGiac.h; sourceTree = "<group>"; };
+		CD24AEB516F5BC0A00C28C91 /* TuGiac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuGiac.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD24AE6D16F5BBBD00C28C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24AE7516F5BBBD00C28C91 /* UIKit.framework in Frameworks */,
+				CD24AE7716F5BBBD00C28C91 /* Foundation.framework in Frameworks */,
+				CD24AE7916F5BBBD00C28C91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD24AE6516F5BBBD00C28C91 = {
+			isa = PBXGroup;
+			children = (
+				CD24AE7A16F5BBBD00C28C91 /* bt */,
+				CD24AE7316F5BBBD00C28C91 /* Frameworks */,
+				CD24AE7116F5BBBD00C28C91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD24AE7116F5BBBD00C28C91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD24AE7016F5BBBD00C28C91 /* bt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD24AE7316F5BBBD00C28C91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD24AE7416F5BBBD00C28C91 /* UIKit.framework */,
+				CD24AE7616F5BBBD00C28C91 /* Foundation.framework */,
+				CD24AE7816F5BBBD00C28C91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD24AE7A16F5BBBD00C28C91 /* bt */ = {
+			isa = PBXGroup;
+			children = (
+				CD24AE9B16F5BC0A00C28C91 /* Circle.h */,
+				CD24AE9C16F5BC0A00C28C91 /* Circle.m */,
+				CD24AE9D16F5BC0A00C28C91 /* Ellipse.h */,
+				CD24AE9E16F5BC0A00C28C91 /* Ellipse.m */,
+				CD24AEA416F5BC0A00C28C91 /* Hinh.h */,
+				CD24AEA516F5BC0A00C28C91 /* Hinh.m */,
+				CD24AEA816F5BC0A00C28C91 /* Parallelogram.h */,
+				CD24AEA916F5BC0A00C28C91 /* Parallelogram.m */,
+				CD24AEAA16F5BC0A00C28C91 /* Rectangular.h */,
+				CD24AEAB16F5BC0A00C28C91 /* Rectangular.m */,
+				CD24AEAC16F5BC0A00C28C91 /* Square.h */,
+				CD24AEAD16F5BC0A00C28C91 /* Square.m */,
+				CD24AEAE16F5BC0A00C28C91 /* Trapezodial.h */,
+				CD24AEAF16F5BC0A00C28C91 /* Trapezodial.m */,
+				CD24AEB016F5BC0A00C28C91 /* Trapezoidal.h */,
+				CD24AEB116F5BC0A00C28C91 /* Trapezoidal.m */,
+				CD24AEB216F5BC0A00C28C91 /* Triangle.h */,
+				CD24AEB316F5BC0A00C28C91 /* Triangle.m */,
+				CD24AEB416F5BC0A00C28C91 /* TuGiac.h */,
+				CD24AEB516F5BC0A00C28C91 /* TuGiac.m */,
+				CD24AE8316F5BBBD00C28C91 /* AppDelegate.h */,
+				CD24AE8416F5BBBD00C28C91 /* AppDelegate.m */,
+				CD24AE8C16F5BBBD00C28C91 /* ViewController.h */,
+				CD24AE8D16F5BBBD00C28C91 /* ViewController.m */,
+				CD24AE7B16F5BBBD00C28C91 /* Supporting Files */,
+			);
+			path = bt;
+			sourceTree = "<group>";
+		};
+		CD24AE7B16F5BBBD00C28C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD24AE7C16F5BBBD00C28C91 /* bt-Info.plist */,
+				CD24AE7D16F5BBBD00C28C91 /* InfoPlist.strings */,
+				CD24AE8016F5BBBD00C28C91 /* main.m */,
+				CD24AE8216F5BBBD00C28C91 /* bt-Prefix.pch */,
+				CD24AE8616F5BBBD00C28C91 /* Default.png */,
+				CD24AE8816F5BBBD00C28C91 /* Default@2x.png */,
+				CD24AE8A16F5BBBD00C28C91 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD24AE6F16F5BBBD00C28C91 /* bt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD24AE9416F5BBBD00C28C91 /* Build configuration list for PBXNativeTarget "bt" */;
+			buildPhases = (
+				CD24AE6C16F5BBBD00C28C91 /* Sources */,
+				CD24AE6D16F5BBBD00C28C91 /* Frameworks */,
+				CD24AE6E16F5BBBD00C28C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bt;
+			productName = bt;
+			productReference = CD24AE7016F5BBBD00C28C91 /* bt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD24AE6716F5BBBD00C28C91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Techmaster;
+			};
+			buildConfigurationList = CD24AE6A16F5BBBD00C28C91 /* Build configuration list for PBXProject "bt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD24AE6516F5BBBD00C28C91;
+			productRefGroup = CD24AE7116F5BBBD00C28C91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD24AE6F16F5BBBD00C28C91 /* bt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD24AE6E16F5BBBD00C28C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24AE7F16F5BBBD00C28C91 /* InfoPlist.strings in Resources */,
+				CD24AE8716F5BBBD00C28C91 /* Default.png in Resources */,
+				CD24AE8916F5BBBD00C28C91 /* Default@2x.png in Resources */,
+				CD24AE8B16F5BBBD00C28C91 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD24AE6C16F5BBBD00C28C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD24AE8116F5BBBD00C28C91 /* main.m in Sources */,
+				CD24AE8516F5BBBD00C28C91 /* AppDelegate.m in Sources */,
+				CD24AE8E16F5BBBD00C28C91 /* ViewController.m in Sources */,
+				CD24AEB616F5BC0A00C28C91 /* Circle.m in Sources */,
+				CD24AEB716F5BC0A00C28C91 /* Ellipse.m in Sources */,
+				CD24AEBA16F5BC0A00C28C91 /* Hinh.m in Sources */,
+				CD24AEBC16F5BC0A00C28C91 /* Parallelogram.m in Sources */,
+				CD24AEBD16F5BC0A00C28C91 /* Rectangular.m in Sources */,
+				CD24AEBE16F5BC0A00C28C91 /* Square.m in Sources */,
+				CD24AEBF16F5BC0A00C28C91 /* Trapezodial.m in Sources */,
+				CD24AEC016F5BC0A00C28C91 /* Trapezoidal.m in Sources */,
+				CD24AEC116F5BC0A00C28C91 /* Triangle.m in Sources */,
+				CD24AEC216F5BC0A00C28C91 /* TuGiac.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD24AE7D16F5BBBD00C28C91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD24AE7E16F5BBBD00C28C91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD24AE9216F5BBBD00C28C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD24AE9316F5BBBD00C28C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD24AE9516F5BBBD00C28C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bt/bt-Prefix.pch";
+				INFOPLIST_FILE = "bt/bt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD24AE9616F5BBBD00C28C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bt/bt-Prefix.pch";
+				INFOPLIST_FILE = "bt/bt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD24AE6A16F5BBBD00C28C91 /* Build configuration list for PBXProject "bt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD24AE9216F5BBBD00C28C91 /* Debug */,
+				CD24AE9316F5BBBD00C28C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD24AE9416F5BBBD00C28C91 /* Build configuration list for PBXNativeTarget "bt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD24AE9516F5BBBD00C28C91 /* Debug */,
+				CD24AE9616F5BBBD00C28C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD24AE6716F5BBBD00C28C91 /* Project object */;
+}
